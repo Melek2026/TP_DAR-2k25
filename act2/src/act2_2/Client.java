@@ -19,7 +19,7 @@ public class Client {
             System.out.print("Entrez l'opérateur (+, -, *, /) : ");
             char op = sc.next().charAt(0);
             System.out.print("Entrez le deuxième nombre : ");
- /*test*/
+
             double b = sc.nextDouble();
 
             // Création et envoi de l'objet Operation

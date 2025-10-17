@@ -14,7 +14,7 @@ public class Serveur {
 
             ObjectInputStream ois = new ObjectInputStream(clientSocket.getInputStream());
             ObjectOutputStream oos = new ObjectOutputStream(clientSocket.getOutputStream());
-
+/*test*/
             // Lecture de l'objet Operation envoyé par le client
             Operation op = (Operation) ois.readObject();
 

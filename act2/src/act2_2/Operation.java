@@ -14,6 +14,7 @@ public class Operation implements Serializable {
         this.operator = operator;
         this.operand2 = operand2;
     }
+    /*test*/
 
     public double getOperand1() {
         return operand1;
